@@ -7,4 +7,5 @@ void d(){a();b();c();printf("4");}
 int main(){
     d();
 }
+//  question :- what is the  following output?
 // output :- 11211234
