@@ -27,3 +27,6 @@ f3()
     int  x = x*10;
     return x;
 }
+
+// Qn: the value printed by the program is 
+// Ans : 229
