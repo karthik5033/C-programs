@@ -7,7 +7,8 @@ int main()
     scanf("%d", &x);
     printf("enter the value of y : ");
     scanf("%d", &y);
-    temp = x;
+    // note:give temp=x as first line or it will store a garbage value in place of x
+    temp = x;   
     x = y;
     y = temp;
     printf("value of x after swapping is %d ", x);
