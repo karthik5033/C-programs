@@ -23,8 +23,7 @@ int main()
                 temp[j]=mat[j];
                 mat[j]=mat[j+1];
                 mat[j+1]=temp[j];
-                // hi
-
+               
             }
         }
     }
