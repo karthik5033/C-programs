@@ -42,5 +42,5 @@ int main() {
     str_copy(result, str1);
     printf("After copying str1 into result: %s\n"); 
 
-    return 0;
+    return 1;
 }
