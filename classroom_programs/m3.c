@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    char str[100];
-    int i = 0;
-
-    printf("Enter a string: ");
-    scanf("%s", str);  // Input without spaces
-
-    while (str[i] != '\0') {
-        if (str[i] >= 'A' && str[i] <= 'Z') {
-            str[i] = str[i] + 32;  // Convert to lowercase
-        }
-        i++;
+    int arr[50];
+    int i;
+    int val=25;
+    int upper_bound=4;
+    for(i=0;i<upper_bound;i++){
+arr[i]=i*10;
+printf("Array before adding %d\n",arr[i]);
     }
-
-    printf("Lowercase string: %s\n", str);
-
+    upper_bound=upper_bound+1;
+    arr[upper_bound]=val;
+    for(i=0;i<upper_bound;i++){
+arr[i]=i*10;
+printf("Array after adding %d\n",arr[i]);
+    }
     return 0;
 }
