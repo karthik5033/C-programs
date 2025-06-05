@@ -1,0 +1,3 @@
+Hello Karthik!
+Welcome to file handling in C.
+Name: kp, Age: 12
