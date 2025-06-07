@@ -28,6 +28,6 @@ int main()
     fclose(fp);
 
     printf("Data appended successfully!\n");
-    printf("Name: %s, Age: %d\n", name, age);
+   
     return 0;
 }
