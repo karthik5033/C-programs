@@ -1,0 +1,7 @@
+USN: 10
+Name: Samsuddin
+Course: BE
+Marks: 75USN: 20
+Name: Shyam
+Course: ME
+Marks: 85
