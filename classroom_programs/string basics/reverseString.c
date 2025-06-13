@@ -9,6 +9,17 @@ int main(){
     j=0;
     while(1){
         if(str[i]==' '||str[i]=='\0')
+        i++;
+        else
+        break;
+    }
+    while(str[i]!=' '&&str[i]!='\0'){
+        dum[j++]=str[i++];
+    }
+    dum[j]='\0';
+    strrev(dum);
+    printf("%s ",dum);
+
     }
 }
 
