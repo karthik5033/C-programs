@@ -13,14 +13,4 @@ int main(){
         else
         break;
     }
-    while(str[i]!=' '&&str[i]!='\0'){
-        dum[j++]=str[i++];
-    }
-    dum[j]='\0';
-    strrev(dum);
-    printf("%s ",dum);
-
-    }
-}
-
 }
