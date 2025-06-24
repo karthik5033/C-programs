@@ -41,4 +41,5 @@
         printf("Strings are equal.\n");
     else
         printf("Strings");
+    return 0;
 }
